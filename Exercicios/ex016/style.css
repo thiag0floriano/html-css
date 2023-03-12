@@ -1,0 +1,35 @@
+/* Regra para não ter problema com caracteres */
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 100%; */
+
+}
+
+body {
+    background-image: linear-gradient(to right, #F2F2F2, #3097BF);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(37, 118, 150, 0.623);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #03588C;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 77, 125, 0.585);
+}
+
+h2 {
+    color: #D9A404;
+}
+
+p {
+    text-align: justify;
+}
